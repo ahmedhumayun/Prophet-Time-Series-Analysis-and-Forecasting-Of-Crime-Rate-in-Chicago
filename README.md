@@ -23,7 +23,7 @@ Using the dataset I have tried to answer the following questions using Facebooks
 Prophet is open source software released by Facebook’s Core Data Science team.
 Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.
 At it’s core, Prophet is an additive model with the following components:
-		y(t) = g(t) + s(t) + h(t) + ϵₜ
+		 y(t) = g(t) + s(t) + h(t) + ϵₜ
 g(t) models trend, which describes long-term increase or decrease in the data. Prophet incorporates two trend models, a saturating growth model and a piecewise linear model, depending on the type of forecasting problem.
 s(t) models seasonality with Fourier series, which describes how data is affected by seasonal factors such as the time of the year (e.g. more searches for eggnog during the winter holidays)
 h(t) models the effects of holidays or large events that impact business time series (e.g. new product launch, Black Friday, Superbowl, etc.)
